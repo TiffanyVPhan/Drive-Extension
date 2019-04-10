@@ -1,0 +1,27 @@
+{
+    "name": "Drive Extension",
+    "version": "1.0",
+    "description": "Change from personal email to Colorado email account on google apps",
+    "author": "Tiffany Phan",
+    "content_scripts": [
+      {
+        "matches":
+        [
+          "https://drive.google.com/*",
+          "https://keep.google.com/*"
+        ],
+        "js":
+        [
+          "redirect.js"
+        ]
+      }
+    ],
+    "permissions":
+    [
+        "activeTab",
+        "tabs",
+        "https://drive.google.com/*",
+        "https://keep.google.com/*"
+    ],
+    "manifest_version": 2
+}
