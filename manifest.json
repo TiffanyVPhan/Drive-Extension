@@ -8,7 +8,9 @@
         "matches":
         [
           "https://drive.google.com/*",
-          "https://keep.google.com/*"
+          "https://keep.google.com/*",
+          "https://calender.google.com/*",
+          "https://google.com/*"
         ],
         "js":
         [
