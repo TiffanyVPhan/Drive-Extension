@@ -8,9 +8,10 @@
         "matches":
         [
           "https://drive.google.com/*",
-          "https://keep.google.com/*",
-          "https://calender.google.com/*",
-          "https://google.com/*"
+          "https://keep.google.com/",
+          "https://calendar.google.com/calendar/r",
+          "https://google.com",
+          "https://www.photos.google.com"
         ],
         "js":
         [
@@ -22,8 +23,6 @@
     [
         "activeTab",
         "tabs",
-        "https://drive.google.com/*",
-        "https://keep.google.com/*"
     ],
     "manifest_version": 2
 }

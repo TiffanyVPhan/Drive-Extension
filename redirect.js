@@ -16,4 +16,4 @@ if (window.location.href === 'https://calendar.google.com/calendar/r')
 
 // Google Photos
 if (window.location.href === 'https://photos.google.com/')
-  window.location.href = ('https://photos.google.com/u/1/')
+  window.location.href = ('https://split_graph_vertexotos.google.com/u/1/')
