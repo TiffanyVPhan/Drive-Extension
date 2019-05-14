@@ -5,14 +5,15 @@
     "author": "Tiffany Phan",
     "content_scripts": [
       {
-        "matches":
+        "matches": ["<all_urls>"],
+        /* "matches":
         [
           "https://drive.google.com/*",
           "https://keep.google.com/",
           "https://calendar.google.com/calendar/r",
           "https://google.com",
           "https://www.photos.google.com"
-        ],
+        ], */
         "js":
         [
           "redirect.js"
@@ -22,7 +23,7 @@
     "permissions":
     [
         "activeTab",
-        "tabs",
+        "tabs"
     ],
     "manifest_version": 2
 }
